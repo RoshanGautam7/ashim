@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ 
+
+}
+    h1{
+        font-size: 55px;
+        line-height: 70px;
+        color: #CAC0B3;
+    }
+    h2{
+        font-size: 50px;
+        line-height: 60px;
+        color: #FF595A;
+    }   
+
+    h4{
+        font-size: 25px;
+       color:  #FF595A
+    }
+      h5{
+        font-size: 20px;
+        font-weight: 700;
+        color: #FF595A;
+      
+    }
+    h6{
+        font-size: 18px;
+        font-weight: 700;
+        color: #CAC0B3;
+      
+    }
+
+    p{
+        font-size: 20px;
+        margin: 20px 0 25px 0;
+        color: #CAC0B3;
+    }
+    
+    .section-p1{
+        padding: 45px 80px;
+
+    }
+    .section-n1{
+        margin:  40px 0;
+
+    }
+
+    body{
+        width: 100%;
+    }
+
+    /* Header starts here */
+    #header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 80px;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        
+        
+    }
+
+    #nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: aliceblue;
+
+
+
+    }
+    #nav li{
+
+        list-style: none;
+        padding: 0 25px;
+        position: relative;
+
+
+
+    }
+    #nav li a{
+        font-size: 18px;
+        font-weight: 700 ;
+        text-decoration: none;
+        color: #CAC0B3;
+
+    }
+    #nav li a.touch::after,
+    #nav li a:hover::after{
+        width: 30%;
+        height: 3px;
+        content: "";
+        position: absolute;
+        bottom: -9px;
+        left: 20px;
+        background: #CAC0B3;
+
+    }
+
+    #drawings{
+        text-align: center;
+    }
+  
+    #drawings .container{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+    #drawings .contain{
+        width: 25%;
+        min-height: 250px;
+        padding: 12px 14px;
+        border: 2px solid #FF595A;
+        border-radius: 25px;
+        cursor: pointer;
+       margin: 17px 0;
+       transition: 0.4s ease;
+    }
+        #drawings .contain:hover{
+
+            box-shadow: 15px 15px 25px rgba(0,0,0,0.6);
+        }
+    #drawings .contain img{
+    width: 100%;
+    border-radius: 20px;
+    }
+/* Your existing CSS styles here */
+/* Your existing CSS styles here */
+
+
+#details{
+    display: flex;
+    margin-top: 20px;
+}
+#details .description-image{
+
+    width: 40%;
+    margin-right: 50px;
+}
+#details .single-description{
+    width: 50%;
+    padding-top: 30px;
+
+
+}
+#details .single-description h4{
+
+    padding: 40px 0 20px 0;
+}

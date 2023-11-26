@@ -5,7 +5,7 @@ class Database
     private $host = 'localhost';
     private $username = 'root';
     private $password = '';
-    private $dbname = 'auction';
+    private $dbname = 'ashim';
     private $pdo;
 
     public function __construct()

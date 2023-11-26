@@ -28,7 +28,7 @@ if (isset($_GET['delete_id'])) {
         // Loop through dummy data to generate table rows
         foreach ($datas as $data) {
             if ($data['type']=='admin') {
-               break;
+               continue;
             }
             echo '<tr>';
             echo '<td>' . $data['name'] . '</td>';

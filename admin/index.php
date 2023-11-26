@@ -3,8 +3,11 @@ session_start();
 require_once('../application/databasehandler.php');
 $database = new DatabaseHandler();
 
-if ($_SESSION['role']=='admin') {
-  header('Location:auctions.php');
+if (isset($_SESSION['role'])) {
+  if ($_SESSION['role']=='admin') {
+    header('Location:auctions.php');
+  }
+  
 }
 ?>
 <!DOCTYPE html>
